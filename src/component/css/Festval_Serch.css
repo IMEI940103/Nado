@@ -1,0 +1,88 @@
+
+.search_class{             
+  width:100%;
+  border-bottom: 2px solid #FFBD60;
+}
+  .button_section{    
+    display: flex;
+    justify-content: space-between;
+  }
+    .select_button{
+      display: block;                
+      width: 130px;
+      padding: 15px 0px;            
+      text-align: center;      
+      border: 2px solid #FFBD60;
+      border-bottom: none;
+      border-radius: 10px 10px 0 0;
+      background-color: #FFFFFF;
+      background-image: url('../../../public/image/down_arrow.png');
+      background-repeat: no-repeat;
+      background-position:calc(100% - 12px);
+      background-size: 12px;          
+    }
+
+    #select_hidden{
+      width: 100%;             
+      position: relative;      
+    }
+      #area_selete{              
+        height:150px;                   
+        text-align: center;
+        line-height: 30px;        
+        border: 2px solid #FFBD60;
+        border-radius: 0px 0px 15px 15px;
+        background-color: #FFFFFF;     
+        position: absolute;
+        z-index: 20;       
+        overflow-y: scroll;    
+      }      
+        #area_selete .select_item{    
+          width:110px;
+          font-size: 12px;
+          text-align: center;
+        }
+        .select_item:hover{
+          background-color: #FFBD60;
+        }
+
+      #date_calender{
+        border-top: 2px solid #FFBD60;                           
+      }
+        .calender_date{ 
+          width:100%;                                   
+          display:flex;
+          justify-content: left;
+          overflow-x: scroll;
+        }
+        .calender_years{overflow: hidden;}
+
+          #date_calender .calender_item{                                     
+            padding:13px 30px;            
+            text-align: center;
+            text-wrap: nowrap;
+            border-radius: 20px;
+          }
+          .calender_item:hover{
+            background-color: #FFBD60;
+          }
+          .calender_item.choise_calender{
+            background-color: #FFBD60;
+          }
+          .years_item{
+            width:100%;            
+            padding:10px 0;
+          }          
+        
+  .thema_class{
+    display: flex;
+    justify-content: space-around;
+    padding:7px 10px;
+    margin-bottom: 20px;
+  }
+    .thema_box{
+      padding:3px 10px;
+      margin:0 5px;
+      border:1px solid #E9DF56;
+      border-radius: 5px;
+    }   

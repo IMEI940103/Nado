@@ -1,0 +1,95 @@
+.cardList_item{  
+    border:1px solid #FFBD60;
+    border-radius: 15px;
+    overflow:hidden;
+    margin-top:10px;
+  }
+  .cardList_item div:first-of-type{
+    display:flex;
+    justify-content: left;
+  }
+  /*
+
+    축제 메인 이미지
+
+  */
+    .itemImage{ 
+      display:inline-block;
+      width: 120px;
+      height: 180px;            
+      object-fit: cover;
+    }
+    .itemInfo{
+      width:calc(100% - 100px);
+    }
+
+    li[class*="item"]{
+      width:100%;      
+      padding: 5px 0px 5px 7px;      
+      text-align: left;            
+    }
+    
+      .itemAlram{      
+        height:30px;        
+        display: flex;              
+        justify-content: space-between;
+      } 
+        .blackStar{
+          background-image: url("/public/image/black_star.png");          
+          background-repeat: no-repeat;          
+          background-size:20px;
+          display: inline-block;
+          padding:10px;
+          margin-right: 7px;
+        }
+        .yellowStar{
+          background-image: url("/public/image/yellow_star.png");          
+          background-repeat: no-repeat;          
+          background-size:20px;
+          display: inline-block;
+          padding:10px;
+          margin-right: 7px;
+        }
+      .itemTitle{
+        height: 45px;
+        font-size: 15px;
+        font-weight: 900;        
+      }
+      .itemDate{
+        height:20px;
+      }
+      .itemAdress{
+        height:40px;
+      }
+      .sub{
+        display:inline-block;
+        width:40px;              
+        color:cadetblue;
+      }
+      
+      .itemLink{ 
+        height:30px;             
+        border-top: 1px solid #FFBD60;
+      }
+
+      li.itemLink > a{
+        display: inline-block;
+        width:50%;
+        padding:5px 0px 5px 20px;              
+        margin:auto;
+        font-size: 10px;
+
+        background-repeat: no-repeat;  
+        background-size: 20px;  
+
+        white-space: pre-line;
+      }
+
+      .itemMap{
+        background-image:url("/public/image/map_point.png");
+        border-right: 1px solid #FFBD60;
+      }
+
+      .itemHome{
+        background-image:url("/public/image/homepage.png");              
+      }
